@@ -15,7 +15,7 @@
 
 
     <p>Exemplo:</p>
-    <div class="container displey-flex">
+    <div class="container display-flex">
 <div class="contido"></div>
 <div class="contido"></div>
 <div class="contido"></div>
@@ -51,7 +51,7 @@
 <p class="descricao-propriedade">O valor "center" vai alinhar o conteudo ao centro do eixo primario.</p>
 <p>Exemplo:</p>
 
-<div class="container displey-flex justify-content-center">
+<div class="container display-flex justify-content-center">
 <div class="contido"></div>
 <div class="contido"></div>
 <div class="contido"></div>
@@ -59,17 +59,154 @@
 <div class="contido"></div>
 </div>
 
-<h3>flex-direction</h3>
-<p class="descricao-propriedade">A propriedade flex-direction permite alterar a direção na qual os elementos flex serão exibidos ao longo do eixo principal.</p>
+<h3>flex-start</h3>
+<p class="descricao-propriedade".>Com o flex-start o item é deslocado para o início do eixo transversal</p>
 <p>Exemplo:</p>
 
-<div class="container flex-direction">
+<div class="container display-flex flex-start">
 <div class="contido"></div>
 <div class="contido"></div>
 <div class="contido"></div>
 <div class="contido"></div>
 <div class="contido"></div>
 </div>
+
+    <h3>flex-end</h3>
+    <p class="descricao-propriedade">Com o flex-end o item é deslocado para o final do eixo transversal.</p>
+    <p>Exemplo:</p>
+    <div class="container display-flex flex-end">
+        <div class="contido">1</div>
+        <div class="contido">2</div>
+        <div class="contido">3</div>
+        <div class="contido">4</div>
+        <div class="contido">5</div>
+    </div>
+
+    <h3>space-between</h3>
+    <p class="descricao-propriedade">Com o space-between os itens são distribuídos uniformemente na linha.</p>
+    <p>Exemplo:</p>
+    <div class="container display-flex space-between">
+        <div class="contido">1</div>
+        <div class="contido">2</div>
+        <div class="contido">3</div>
+        <div class="contido">4</div>
+        <div class="contido">5</div>
+    </div>
+
+    <h3>space-around</h3>
+    <p class="descricao-propriedade">Com o space-around itens são distribuídos uniformemente na linha com espaço igual ao seu redor.</p>
+    <p>Exemplo:</p>
+    <div class="container display-flex space-around">
+        <div class="contido">1</div>
+        <div class="contido">2</div>
+        <div class="contido">3</div>
+        <div class="contido">4</div>
+        <div class="contido">5</div>
+    </div>
+
+        <h3>space-evenly</h3>
+        <p class="descricao-propriedade">Com o space-evenly os itens são distribuídos uniformemente dentro do contêiner de alinhamento ao longo do eixo principal.</p>
+        <p>Exemplo:</p>
+        <div class="container display-flex space-evenly">
+            <div class="contido">1</div>
+            <div class="contido">2</div>
+            <div class="contido">3</div>
+            <div class="contido">4</div>
+            <div class="contido">5</div>
+        </div>
+
+        <h3>Initial</h3>
+        <p class="descricao-propriedade">A initialpalavra-chave é usada para definir uma propriedade CSS com seu valor padrão.
+
+            A initialpalavra-chave pode ser usada para qualquer propriedade CSS e em qualquer elemento HTML.</p>
+            <p>Exemplo:</p>
+            <div class="container display-flex Initial">
+                <div class="contido">1</div>
+                <div class="contido">2</div>
+                <div class="contido">3</div>
+                <div class="contido">4</div>
+                <div class="contido">5</div>
+            </div>
+           
+            <h3>Inherit</h3>
+            <p class="descricao-propriedade">A inheritpalavra-chave especifica que uma propriedade deve herdar seu valor de seu elemento pai.
+
+                A inheritpalavra-chave pode ser usada para qualquer propriedade CSS e em qualquer elemento HTML.</p>
+            <p>Exemplo:</p>
+            <div class="container display-flex Inherit">
+                <div class="contido">1</div>
+                <div class="contido">2</div>
+                <div class="contido">3</div>
+                <div class="contido">4</div>
+                <div class="contido">5</div>
+            </div>
+
+            <h3>flex-direction</h3>
+            <p class="descricao-propriedade">A flex-directionpropriedade especifica a direção dos itens flexíveis.
+
+                Nota: Se o elemento não for um item flexível, a flex-directionpropriedade não terá efeito.</p>
+
+
+            <h3>row</h3>
+            <p class="descricao-propriedade">Os itens flexíveis são exibidos horizontalmente, como uma linha</p>
+            <p>Exemplo:</p>
+
+            <div class="container display-flex flex-direction-row">
+                <div class="contido">1</div>
+                <div class="contido">2</div>
+                <div class="contido">3</div>
+                <div class="contido">4</div>
+                <div class="contido">5</div>
+            </div>
+
+            <h3>row-reverse</h3>
+            <p class="descricao-propriedade">Igual ao row/linha, mas na ordem inversa</p>
+            <p>Exemplo:</p>
+            <div class="container display-flex flex-direction-row-reverse">
+                <div class="contido">1</div>
+                <div class="contido">2</div>
+                <div class="contido">3</div>
+                <div class="contido">4</div>
+                <div class="contido">5</div>
+            </div>
+
+            <h3>Column</h3>
+            <p class="descricao-propriedade">Os itens flexíveis são exibidos verticalmente, como uma coluna</p>
+            <p>Exemplo:</p>
+            <div class="container display-flex flex-direction-column">
+                <div class="contido">1</div>
+                <div class="contido">2</div>
+                <div class="contido">3</div>
+                <div class="contido">4</div>
+                <div class="contido">5</div>
+            </div>
+
+            <h3>Column-reverse</h3>
+            <p class="descricao-propriedade">Igual à Column/coluna, mas na ordem inversa</p>
+            <p>Exemplo:</p>
+            <div class="container display-flex flex-direction-column-reverse">
+                <div class="contido">1</div>
+                <div class="contido">2</div>
+                <div class="contido">3</div>
+                <div class="contido">4</div>
+                <div class="contido">5</div>
+            </div>
+
+            <h3>Align-itens</h3>
+            <p class="descricao-propriedade">A align-itemspropriedade especifica o alinhamento padrão para itens dentro de um flexbox ou contêiner de grade. Para que esta propriedade tenha algum efeito de alinhamento, os itens precisam de espaço disponível ao seu redor na direção apropriada.</p>
+
+            <h3>Stretch</h3>
+            <p class="descricao-propriedade">Os itens são esticados para caber no contêiner.</p>
+            <p>Exemplo:</p>
+            <div class="container display-flex align-itens-stretch">
+                <div class="contido">1</div>
+                <div class="contido">2</div>
+                <div class="contido">3</div>
+                <div class="contido">4</div>
+                <div class="contido">5</div>
+            </div>
+
+            <p>ARRUMAR O STRETCH!!!!!!!!</p>
 
 </body>
 </html>
