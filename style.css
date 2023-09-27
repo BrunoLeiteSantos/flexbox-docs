@@ -121,3 +121,31 @@ border: 5px solid #0000ff;
         .align-itens-stretch{
             align-items: stretch; 
         }
+
+        .align-itens-start{
+            align-items: start;
+        }
+
+        .align-itens-end{
+            align-items: end;
+        }
+
+        .align-itens-center{
+            align-items: center;
+        }
+
+        .align-itens-baseline{
+            align-items: baseline;
+        }
+
+        .flex-wrap-nowrap{
+            flex-wrap: nowrap;
+        }
+
+        .flex-wrap-wrap{
+            flex-wrap: wrap;
+        }
+
+        .flex-wrap-wrap-reverse{
+            flex-wrap: wrap-reverse;
+        }
