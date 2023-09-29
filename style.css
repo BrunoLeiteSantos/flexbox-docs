@@ -56,7 +56,7 @@ tr:nth-child(ODD) {
 .container{
     height: 300px;
 background-color: antiquewhite;
-border: 5px solid #ff0000;
+border: 5px solid purple;
 }
 
 .contido{
@@ -148,4 +148,32 @@ border: 5px solid #0000ff;
 
         .flex-wrap-wrap-reverse{
             flex-wrap: wrap-reverse;
+        }
+
+        .align-content-stretch{
+            align-content: stretch;
+        }
+
+        .align-content-center{
+            align-content: center;
+        }
+
+        .align-content-flex-start{
+            align-content: flex-start;
+        }
+
+        .align-content-flex-end{
+            align-content: flex-end;
+        }
+
+        .align-content-space-between{
+            align-content: space-between;
+        }
+
+        .align-content-space-around{
+            align-content: space-around;
+        }
+
+        .align-content-space-evenly{
+            align-content: space-evenly;
         }
